@@ -1,0 +1,15 @@
+{
+  "name": "@hxy/wangeditor",
+  "version": "1.0.0",
+  "description": "wangeditor增加视频上传功能",
+  "main": "wangEditor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "富文本",
+    "视频上传"
+  ],
+  "author": "hxy",
+  "license": "ISC"
+}
