@@ -2607,7 +2607,7 @@ UploadVideo.prototype = {
             }
         }
 
-        editor.cmd.do('insertHTML', '<video style="width:100%" controls="controls" src="' + link + '" style="max-width:100%;"/>');
+        editor.cmd.do('insertHTML', '<video style="width:100%" controls="controls" src="' + link + '/>');
 
         // 验证视频 url 是否有效，无效的话给出提示
         var video = document.createElement('video');
